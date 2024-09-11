@@ -28,6 +28,6 @@ In your solution you must provide the following in your Github link account:
   Uploaded java codes for the solution.
 
 
-** My Diagram **
+# My Diagram 
 ![Diagram](https://github.com/user-attachments/assets/0e0a1cfa-eae8-4c8c-80e4-b3e8db24f9a4)
 
