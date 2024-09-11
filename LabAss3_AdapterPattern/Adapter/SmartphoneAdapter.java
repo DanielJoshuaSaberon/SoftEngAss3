@@ -17,8 +17,9 @@ public class SmartphoneAdapter implements Outlet {
         }
         else{
             return "\tIncompatible power outlet for Smartphone";
-        }    }
+        }    
     }
+    
 
     @Override
     public boolean isCompatible(String plugType, int voltage, double amperage) {
