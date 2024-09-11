@@ -12,7 +12,12 @@ public class SmartphoneAdapter implements Outlet {
 
     @Override
     public String plugIn() {
-        return phone.chargePhone();
+        if(isCompatible(phone.getPlugType(), phone.getVoltage(), phone.getAmperage())){
+            return phone.chargePhone();
+        }
+        else{
+            return "\tIncompatible power outlet for Smartphone";
+        }    }
     }
 
     @Override
