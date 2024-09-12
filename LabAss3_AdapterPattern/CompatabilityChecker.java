@@ -73,19 +73,5 @@ public class CompatabilityChecker {
 
             }
         }while(x);
-
-
-//        SmartphoneCharger phone = new SmartphoneCharger();
-//        Outlet phoneTarget = new SmartphoneAdapter(phone);
-//
-//        Refrigerator ref = new Refrigerator();
-//        Outlet refTarget = new RefrigeratorAdapter(ref);
-//
-//        Laptop laptop = new Laptop();
-//        Outlet laptopTarget = new LaptopAdapter(laptop);
-        //
-//        System.out.println(phoneTarget.plugIn());
-//        System.out.println(refTarget.plugIn());
-//        System.out.println(laptopTarget.plugIn());
     }
 }
